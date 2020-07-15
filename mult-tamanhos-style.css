@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#bloco {
+  width: 360px;
+  margin-left: 0;
+}
+
+p {
+  margin-right: 100px;
+  font-size: 1rem;
+  text-align: right;
+}
+
+input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+span {
+  margin: 0em;
+  padding: 0em;
+  height: 1em;
+}
+
+label {
+  height: inherit;
+  padding: 0px;
+  margin: 0px;
+}
+
+svg {
+  width: inherit;
+  height: inherit;
+  fill: gray;
+}
+
+input[type="radio"]:active ~ label svg {
+  fill: #942525;
+}
+
+input[type="radio"]:checked ~ label svg {
+  fill: #c03535;
+}
